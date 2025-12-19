@@ -33,13 +33,14 @@ Install these prerequisites to follow along with the tutorial. See free video tu
 
 ## Step 2. Install dependencies
 ```sh
-$ cd <PROJECT NAME>
+$ cd Blockchain
 $ yarn install # or npm install
 ```
 ## Step 3. Start Hardhat Node
 Open the terminal and run the command below.
 ```sh
-$ yarn hardhat node
+$ npx hardhat node
+$ npx hardhat run scripts/deploy.js --network localhost
 ```
 
 ## Step 4. Run the Front End Application
